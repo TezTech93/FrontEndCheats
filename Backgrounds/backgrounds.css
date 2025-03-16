@@ -1,0 +1,21 @@
+ .fullview-body-img {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100vh; /* Set height to 100% of the viewport height */
+  background-image: url('your-image.jpg'); /* Replace with your image path */
+  background-size: cover; /* Scale the image to cover the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Optional: Fix the background while scrolling */
+}
+
+.fullview-body-gradient {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
